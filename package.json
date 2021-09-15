@@ -6,7 +6,7 @@
     "start": "rollup -c -w",
     "serve": "sirv dist -c",
     "test": "jest",
-    "prepare": "husky install",
+    "prepare": "npx husky install",
     "format": "prettier --write --plugin-search-dir=. .",
     "check-format": "prettier --plugin-search-dir=. --check ."
   },
